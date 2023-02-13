@@ -1,4 +1,62 @@
+/* font-family: 'Fraunces', serif;
+ */
 * {
   margin: 0;
   padding: 0;
+}
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+
+main {
+  width: 600px;
+  height: 450px;
+  margin: 25vh auto 0 auto;
+  background-color: white;
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+}
+.parfum-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 450px;
+  width: 300px;
+  background-image: url(../images/image-product-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 10px 0 0 10px;
+}
+.description {
+  position: absolute;
+  width: 236px;
+  right: 32px;
+  top: 32px;
+}
+h1 {
+  color: hsl(212, 21%, 14%);
+  font-family: "Fraunces", serif;
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+div p {
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat", sans-serif;
+}
+div p:nth-child(1) {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+div p:nth-child(3) {
+  line-height: 170%;
+  font-weight: 500;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
