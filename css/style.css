@@ -100,3 +100,38 @@ footer a {
   text-decoration: none;
   color: hsl(228, 20%, 19%);
 }
+@media (max-width: 600px) {
+  main {
+    width: 343px;
+    height: 611px;
+    margin: 10vh auto 0 auto;
+  }
+  .parfum-img {
+    width: 343px;
+    background-image: url(../images/image-product-mobile.jpg);
+    border-radius: 10px 10px 0 0;
+  }
+  .description {
+    width: 295px;
+    left: 24px;
+    top: 264px;
+  }
+  h1 {
+    color: hsl(212, 21%, 14%);
+    font-family: "Fraunces", serif;
+    font-size: 32px;
+    margin-bottom: 16px;
+    line-height: 32px;
+  }
+
+  main div p:nth-child(3) {
+    margin-bottom: 15px;
+  }
+
+  main a {
+    width: 295px;
+    height: 48px;
+    left: 24px;
+    bottom: 23px;
+  }
+}
